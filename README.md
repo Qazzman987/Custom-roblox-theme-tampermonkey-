@@ -4,10 +4,10 @@ A custom theme for the roblox website using tampermonkey
 
 Install
 
-Go to the script
-When the code pops up you press raw
-You will be sent to the tampermonkey install page
-Lastly press install and enjoy your new theme
+Go to the script \n
+When the code pops up you press raw \n
+You will be sent to the tampermonkey install page \n
+Lastly press install and enjoy your new theme \n
 
 
 Feel free to edit the code to your needs.
