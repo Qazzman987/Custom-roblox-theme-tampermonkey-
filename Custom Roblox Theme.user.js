@@ -25,7 +25,7 @@
 
     contentDiv.opacity = "0.9"; //opacity of the menu with the content. Remove if you want it at full opacity.
     contentDiv.backgroundColor = "#00161b";
-    contentDiv.borderRadius = "8px"
+    contentDiv.borderRadius = "8px"; //for rounded corners
     contentDiv.paddingLeft = "1rem";
     contentDiv.marginTop = "1rem";
 
