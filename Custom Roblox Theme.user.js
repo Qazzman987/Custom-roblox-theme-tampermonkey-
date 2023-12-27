@@ -47,7 +47,7 @@
     let secondUrl = indexOfHashtag !== -1 ? currentURL.substring(0, indexOfHashtag) : currentURL; // gives us a url that has removed everything after /discover
 
 
-    if (firstUrl === "https://www.roblox.com/catalog" || secondUrl === "https://www.roblox.com/discover") { // checks if the user is in catlog or discover to apply the right css.
+    if (firstUrl === "https://www.roblox.com/catalog" || secondUrl === "https://www.roblox.com/discover" || firstUrl === "https://www.roblox.com/discover/") { // checks if the user is in catlog or discover to apply the right css.
 
         navSide.color = "black";
     } else {
