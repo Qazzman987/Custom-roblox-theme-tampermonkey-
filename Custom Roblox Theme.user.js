@@ -17,6 +17,7 @@
     let navSide = document.getElementById("navigation").style;
     let navTop = document.getElementById("header").style;
     let footerDiv = document.getElementById("footer-container").style;
+    let rbxBody = document.getElementById("rbx-body").style;
 
 
     mainDiv.backgroundColor = "darkblue"; // if the image would not load you could easily see if it was tampermonkey or the image.
@@ -33,6 +34,7 @@
     navSide.backgroundColor = "#27071e";
     navTop.backgroundColor = "#27071e";
     footerDiv.backgroundColor = "#27071e";
+    rbxBody.backgroundColor = "#27071e";
 
 
 
@@ -47,7 +49,7 @@
     let secondUrl = indexOfHashtag !== -1 ? currentURL.substring(0, indexOfHashtag) : currentURL; // gives us a url that has removed everything after /discover
 
 
-    if (firstUrl === "https://www.roblox.com/catalog" || secondUrl === "https://www.roblox.com/discover" || firstUrl === "https://www.roblox.com/discover/") { // checks if the user is in catlog or discover to apply the right css.
+    if (firstUrl === "https://www.roblox.com/catalog" || secondUrl === "https://www.roblox.com/discover" || firstUrl === "https://www.roblox.com/discover/" || currentURL == "https://www.roblox.com/users/friends#!/friend-requests" ) { // checks if the user is in catlog or discover to apply the right css.
 
         navSide.color = "black";
     } else {
